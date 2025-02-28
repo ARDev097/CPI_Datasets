@@ -12,7 +12,7 @@ Contains membership data for different councils and committees. Each file follow
 * **end\_date**: Date when the season ended.  
 * **season**: The governance season during which the member was active.
 
-  #### **b) RPGF\_Rounds\_Data**
+#### **b) RPGF\_Rounds\_Data**
 
 Contains data on retroactive public goods funding (RPGF) rounds. Each file includes:
 
@@ -20,7 +20,7 @@ Contains data on retroactive public goods funding (RPGF) rounds. Each file inclu
 * **start\_date**: Date when the round started.  
 * **end\_date**: Date when the round ended.
 
-  #### **c) Data\_Sheets**
+#### **c) Data\_Sheets**
 
 Contains daily data sheets where delegates’ voting power and their memberships in various councils and committees are recorded based on active seasons and RPGF rounds.
 
@@ -57,14 +57,14 @@ Data sheet structure
 * **sc\_vp\_s6**: The voting power of the delegate in the Security Council Season 6\.  
 * **coc\_member\_s6**: A binary indicator (1 or 0\) showing whether the delegate is a member of the Code of Conduct Council Season 6\.
 
-  #### **d) Delegates\_Data**
+#### **d) Delegates\_Data**
 
 Daily CSV files containing:
 
 * **delegate**: Wallet address.  
 * **voting\_power**: The delegate’s voting power on that specific day.
 
-  #### **e) Delegates\_Data\_with\_ACC\_Members**
+#### **e) Delegates\_Data\_with\_ACC\_Members**
 
 Daily CSV files where Anticapture Commission (ACC) members are added, and ACC is removed as a separate delegate. Voting power is equally distributed among all members.
 
